@@ -1,0 +1,113 @@
+body {
+    background-color: rgba(184, 147, 219, 0.714);
+    
+}
+header {
+    width: 1200px;
+    height: 200px;
+    margin: 0 auto;
+    padding-left: 20px;
+    background-color: rgba(93, 11, 170, 0.979);
+    background: -webkit-linear-gradient(90deg, rgb(93, 11, 170) 58%, rgb(11, 72, 170));
+background: -moz-linear-gradient(90deg, rgb(93, 11, 170) 58%, rgb(11, 72, 170));
+background: linear-gradient(90deg, rgb(93, 11, 170) 58%, rgb(11, 72, 170));
+    border: 1px solid rgba(93, 11, 170, 0.979);
+    border-radius: 30px 30px 0px 0px;
+    display: flex;
+    box-shadow: 0px 5px 15px 2px rgba(15, 14, 15, 0.6);
+    
+}
+.text-portfolio {
+    color: aliceblue;
+    font-size: 38px;
+    text-shadow:
+  1px 1px 1px #111111,
+  2px 2px 2px #222222;
+
+}
+.logo {}
+.section-box {
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+.avatar { 
+
+}
+.text-main {
+    color: aliceblue;
+    font-size: 38px;
+    text-shadow:
+  1px 1px 1px #111111,
+  2px 2px 2px #222222;
+}
+.collona {
+    margin-top: -30px;
+    margin-right: 600px;
+    position: absolute;
+    transform:translate(-1px, -42px);
+    z-index: -1;
+    animation: collona-box1 6s;
+    animation-iteration-count: infinite; 
+    animation-direction:alternate;
+}
+    @keyframes collona-box1  {
+        0% { 
+            transform: translateX(0px); 
+        }
+        100% {
+            transform: translateX(120px); 
+        }
+    }
+
+.dom01 {  
+    text-align: center;
+    box-shadow: 10px -27px 91px -16px rgba(15, 14, 15, 0.5) inset;
+}
+.collona2 {
+    margin-top: -30px;
+    margin-right: 600px;
+    position: absolute;
+    top: 0px;
+    left: 1000px;
+    z-index: -1;
+    animation: collona-box2 6s;
+    animation-iteration-count: infinite; 
+    animation-direction:alternate;
+}
+@keyframes collona-box2  {
+    0% { 
+        transform: translateX(0px); 
+    }
+    100% {
+        transform: translateX(-120px); 
+    }
+}
+.footer-box {
+    width: 1200px;
+    height: 200px;
+    margin: 0 auto;
+    padding-top: 40px;
+    background-color: rgba(93, 11, 170, 0.979);
+    border: 1px solid rgba(93, 11, 170, 0.979);
+    border-radius: 0px 0px 30px 30px;
+    box-shadow: 0px 5px 15px 2px rgba(15, 14, 15, 0.6);
+}
+.footer-box__menu-main-menu {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.footer-box__menu-main-menu__list {
+    
+}
+.footer-box__menu-main-menu__list-a {color: aliceblue;
+    font-size: 38px;
+    text-shadow:
+  1px 1px 1px #111111,
+  2px 2px 2px #222222;
+text-decoration: none;
+}
